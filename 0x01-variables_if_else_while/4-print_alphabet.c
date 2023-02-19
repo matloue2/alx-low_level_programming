@@ -6,20 +6,16 @@
  * Return: Always 0(Success)
  */
 int main(void)
-
 {
-	char ch = 'a'
+char la;
 
-	while (ch <= 'z')
-	{
-	if (ch != 'e' & &ch != 'q'
-	{
-	putchar(ch);
-	}
-	ch++
-	}
+for (la = 'a'; la <= 'z'; la++)
+{
+if (la != 'e' && la != 'q')
+putchar(la);
+}
 
-	putchar('\n');
-	Return(0)
+putchar('\n');
 
+return (0);
 }
