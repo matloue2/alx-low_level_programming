@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - Prints sizes of various computer types
- * Return 0 (Success)
+ * main - Entry point
+ * * Return: Always 0
  */
 int main(void)
 {
-
 	char a;
 	int b;
 	long int c;
