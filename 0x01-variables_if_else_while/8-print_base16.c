@@ -8,12 +8,11 @@ int main(void)
 	int num;
 	char la;
 
-	for (num - 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (num = 48; num < 58; num++)
+		putchar(num);
 
 	for (la = 'a'; la <= 'f'; la++)
 		putchar(la);
-
 
 	putchar('\n');
 
