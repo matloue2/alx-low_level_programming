@@ -1,15 +1,24 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * main - check the code
+ * print_line - print a straight line
  *
- * Return: Always 0.
+ * @n: is the number of times the _ character
+ *     should be printed
+ *
+ * Return: Nothing
  */
-int main(void)
+
+void print_line(int n)
 {
-	print_line(0);
-	print_line(2);
-	print_line(10);
-	print_line(-4);
-	return (0);
+	int line;
+
+	if (n <= 0)
+		_putchar('\n');
+	else
+	{
+		for (line = 1; line <= n; ++line)
+			_putchar('_');
+		_putchar('\n');
+	}
 }
